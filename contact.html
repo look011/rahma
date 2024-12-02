@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f9fc;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #ffddcc;
+        }
+        header h1 {
+            font-size: 2rem;
+            color: #d43f3f;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #eee;
+            color: #555;
+            margin-top: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #007bff;
+            margin: 0 10px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form input, form textarea, form button {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #0056b3;
+        }
+        .phone {
+            margin-top: 20px;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+    <main>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <!-- Phone Number Section -->
+        <div class="phone">
+            <p><strong>Call me at:</strong> +123 456 7890</p>
+        </div>
+    </main>
+    <footer>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+        </nav>
+    </footer>
+</body>
+</html>
